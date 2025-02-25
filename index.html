@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Recipe Generator</title>
   </head>
@@ -20,11 +21,12 @@
       </header>
       <main>
         <h2>
-          Enter the ingredients you have in your kitchen and we'll generate a
-          recipe for you 🥘🍝🍰
+          Enter the ingredients you have in your kitchen and we'll come up with
+          a recipe for you 🥘🍝🍰
         </h2>
         <form id="recipe-generator-form">
           <input
+            id="ingredients"
             class="ingredients-input"
             type="text"
             placeholder="Ingredients"
