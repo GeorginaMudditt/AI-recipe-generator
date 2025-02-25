@@ -14,18 +14,18 @@ body {
 
 h1 {
   font-family: "Oswald", serif;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 h2 {
   font-family: "Noto Serif", serif;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 form input {
   border-radius: 30px;
   font-family: "Noto Serif", serif;
-  font-size: 25px;
+  font-size: 20px;
   padding: 10px 20px;
 }
 
@@ -46,12 +46,12 @@ form {
   background-color: #efefef;
   border-left: 5px solid grey;
   font-family: "Noto Serif", serif;
-  font-size: 25px;
+  font-size: 20px;
   padding: 10px;
 }
 
 footer {
   font-family: "Noto Serif", serif;
-  font-size: 20px;
+  font-size: 15px;
   margin-top: 50px;
 }
