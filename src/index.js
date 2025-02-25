@@ -18,7 +18,8 @@ function generateRecipe(event) {
     "Provide a short recipe which must include all the ingredients provided in the following structure: heading, ingredients, method. Use basic HTML. The recipe should be short and concise. Do not include html or body tags. Do not include any other information apart from the recipe.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-  console.log("Generating recipe ...");
+  let recipeElement = document.querySelector("#recipe");
+  recipeElement.innerHTML = "Generating recipe ...";
 
   axios.get(apiUrl).then(displayRecipe);
 }
