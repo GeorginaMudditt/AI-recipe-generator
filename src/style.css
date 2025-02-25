@@ -1,3 +1,44 @@
+body {
+  background-image: url(../images/pexels-ella-olsson-572949-1640774.jpg);
+  background-size: cover;
+}
+
+.content-container {
+  background-color: #a6e4e7;
+  border-radius: 20px;
+  margin: 100px auto;
+  max-width: 800px;
+  padding: 100px;
+  text-align: center;
+}
+
 h1 {
-  color: blueviolet;
+  font-family: "Oswald", serif;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: "Noto Serif", serif;
+  font-size: 35px;
+}
+
+form input {
+  border-radius: 10px;
+  font-family: "Noto Serif", serif;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.ingredients-input {
+  margin-right: 10px;
+}
+
+form {
+  margin-bottom: 50px;
+}
+
+footer {
+  font-family: "Noto Serif", serif;
+  font-size: 20px;
+  margin-top: 50px;
 }
