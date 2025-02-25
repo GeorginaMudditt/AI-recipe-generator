@@ -7,7 +7,7 @@ body {
   background-color: #a6e4e7;
   border-radius: 20px;
   margin: 100px auto;
-  max-width: 800px;
+  max-width: 600px;
   padding: 100px;
   text-align: center;
 }
@@ -35,6 +35,14 @@ form input {
 
 form {
   margin-bottom: 50px;
+}
+
+.recipe {
+  background-color: #efefef;
+  border-left: 5px solid grey;
+  font-family: "Noto Serif", serif;
+  font-size: 25px;
+  padding: 10px;
 }
 
 footer {
